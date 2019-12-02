@@ -1,0 +1,11 @@
+info:
+  profile: default
+  from: git-repo
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone:  http://localhost:8181/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${random.int}
