@@ -1,6 +1,6 @@
 info:
   profile: dev
-  from: git-repo
+  from: git-repo-dev
 
 eureka:
   client:
